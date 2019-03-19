@@ -114,8 +114,8 @@ for region in seed.keys():
 
 print("*******************************************************")
 print("Final Four")
-semi1 = pick_a_winner(final_four['South'], final_four['West'], data, 5)
-semi2 = pick_a_winner(final_four['East'], final_four['Midwest'], data, 5)
+semi1 = pick_a_winner(final_four['South'], final_four['Midwest'], data, 5)
+semi2 = pick_a_winner(final_four['East'], final_four['West'], data, 5)
 
 print("\nChampionship")
 pick_a_winner(semi1, semi2, data, 6)
